@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="headerandfooter.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/Public/favicon_package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Public/favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Public/favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="/Public/favicon_package/site.webmanifest">
+    <link rel="mask-icon" href="/Public/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- footre -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-0" id="page up">
+        <div class="container-fluid" style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;">
+            <a href="https://specialgraphics.us/index.html">
+                <img loading="lazy" src="./Public/img/webp/Asset 5.svg" class="d-block h-25" alt="..."
+                    style="position: relative; width: 200px; padding: 12px; margin-left: 96px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-2 mt-3">
+                    <li class="nav-item">
+                        <a class="nav-link active nav2-text" aria-current="page"
+                            style="font-weight: 500; color: #0e0e0e;"
+                            href="https://specialgraphics.us/specialstudiofaqs.html">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2-text" style="font-weight: 500; color: #0e0e0e;"
+                            href="https://specialgraphics.us/categoriesnew.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2-text" aria-current="page" style="font-weight: 500; color: #0e0e0e;"
+                            href="https://specialgraphics.us/findadesigner.html">Find a Designer</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="badge badge-dark"
+                            style="position: absolute; background-color: black; color: white; padding: -1px; margin-left: 48px; font-size: xx-small; padding: -1px; padding-left: 2px; padding-right: 2px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">New</span>
+                        <a class="nav-link nav2-text" style="font-weight: 500; color: #0e0e0e;"
+                            href="https://specialgraphics.us/inspiration.html">Special Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav2-text" aria-current="page" style="font-weight: 500; color: #0e0e0e;"
+                            href="https://specialgraphics.us/prodesigner.html">Courses</a>
+                    </li>
+
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link active " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-current="page" aria-haspopup="true" aria-expanded="false"
+                            style="font-weight: 500; color: #0e0e0e; font-size: 16px;">
+                            Showcase
+                            <img loading="lazy" src="./Public/img/logos/Asset 6.svg" class="d-block h-25 bold-image"
+                                alt="..."
+                                style="position: relative; width: 10px; margin-left: 90px; font-weight: 500; margin-top: -14px;">
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item"
+                                    href="http://127.0.0.1:5502/inspirationnew.html">Inspiration</a>
+                                <a class="dropdown-item" href="http://127.0.0.1:5502/inspiration.html">Recent
+                                    Winners</a>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <style>
+                a:hover {
+                    text-decoration: none !important;
+                }
+
+                .btn-outline-dark {
+                    font-weight: 500;
+                    font-size: 15px;
+                    margin-right: 100px;
+                    width: 50px;
+                    height: 29px;
+                    padding: 0;
+                    color: #0e0e0e;
+                }
+
+                .btn-outline-dark:hover {
+                    color: #fff;
+                    background-color: #0e0e0e;
+                    border-color: #0e0e0e;
+                }
+
+                .form-control:focus {
+                    box-shadow: none !important;
+                }
+
+                .btn-outline-dark:focus {
+                    box-shadow: none !important;
+                }
+
+                .fa-phone {
+                    display: inline-block;
+                    transform: rotate(90deg);
+                    /* Adjust the degree of rotation as needed */
+                }
+            </style>
+            <div class="phone mt-3">
+                <a href="#" style="font-weight: 500; font-size: 15px; color: #0e0e0e;"> <i class="fa fa-phone"
+                        aria-hidden="true"></i>+1929 321 3710</a>
+            </div>
+            <div class="sign mt-3">
+                <a href="https://app.specialgraphics.us/"
+                    style="font-weight: 500; font-size: 15px; color: #0e0e0e;">Sign
+                    in</a>
+            </div>
+            <div class="jointabs mt-3">
+                <button type="button" onclick="window.location.href='https://app.specialgraphics.us/signupselect'"
+                    class="btn btn-outline-dark">Join</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+            <img class="logo" src="./Public/img/webp/Asset 5.svg" width="50%" alt="...">
+            <h2 class="title">Sign Up</h2>
+    
+            <div class="social-buttons">
+                <button class="google">
+                    <img src="./Public/img/webp/g serch.webp" alt="Google Icon" width="5%" height="5%" style="margin-left: -7%;">Continue with Google
+                </button>
+                <button class="facebook">
+                    <img src="./Public/img/webp/face (2).webp" alt="Facebook Icon" width="6%" height="6%" style="margin-left: -2%;">Continue with Facebook
+                </button>
+                <button class="apple">
+                    <img src="./Public/img/webp/Apple.webp" alt="Apple Icon" width="5%" height="5%" style="margin-left: -10%;">Continue with Apple
+                </button>
+            </div>
+    
+            <p style="font-weight: 500;">Or, Sign in with email.</p>
+    
+            <form class="signup-form">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            
+                <div class="password-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                    <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span>
+                </div>
+            
+                <div class="password-requirements" style="display: none;">
+                    <div>
+                        <p class="requirement" id="length-requirement">✖ 8 characters minimum</p>
+                        <p class="requirement" id="lowercase-requirement" style="margin-left: -15%;">✖ 1 lowercase letter</p>
+                    </div>
+                    <div>
+                        <p class="requirement" id="uppercase-requirement">✖ 1 uppercase letter</p>
+                        <p class="requirement" id="number-requirement" style="margin-left: -19%;">✖ 1 number</p>
+                    </div>
+                </div>
+            
+                <!-- New div for Remember Me and Forgot Password -->
+                <div class="additional-options">
+                    <label>
+                        <input type="checkbox" name="remember-me"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+            
+                <p style="text-align: left;">By clicking below, you agree to our Special Graphics Terms and Conditions and acknowledge our Privacy and Cookie Policy.</p>
+            
+                <button type="submit" class="submit-button" disabled style="background-color: lightgray; color: #0e0e0e;">Sign in</button>
+            </form>
+            
+    
+            <p style="margin-top: 3%;">Or </p>
+
+            <a href="./Signup.html" > <button type="submit" class="submit-button" >Create an account</button> </a>
+
+
+        </div>
+    </div>
+    
+    <script>
+        const passwordInput = document.getElementById('password');
+        const emailInput = document.getElementById('email');
+        const lengthRequirement = document.getElementById('length-requirement');
+        const lowercaseRequirement = document.getElementById('lowercase-requirement');
+        const uppercaseRequirement = document.getElementById('uppercase-requirement');
+        const numberRequirement = document.getElementById('number-requirement');
+        const passwordRequirements = document.querySelector('.password-requirements');
+        const submitButton = document.querySelector('.submit-button');
+    
+        function checkPasswordRequirements() {
+            const password = passwordInput.value;
+    
+            // Check if the password has at least 8 characters
+            if (password.length >= 8) {
+                lengthRequirement.classList.add('success');
+                lengthRequirement.textContent = '✔ 8 characters minimum';
+            } else {
+                lengthRequirement.classList.remove('success');
+                lengthRequirement.textContent = '✖ 8 characters minimum';
+            }
+    
+            // Check if the password has at least 1 lowercase letter
+            if (/[a-z]/.test(password)) {
+                lowercaseRequirement.classList.add('success');
+                lowercaseRequirement.textContent = '✔ 1 lowercase letter';
+            } else {
+                lowercaseRequirement.classList.remove('success');
+                lowercaseRequirement.textContent = '✖ 1 lowercase letter';
+            }
+    
+            // Check if the password has at least 1 uppercase letter
+            if (/[A-Z]/.test(password)) {
+                uppercaseRequirement.classList.add('success');
+                uppercaseRequirement.textContent = '✔ 1 uppercase letter';
+            } else {
+                uppercaseRequirement.classList.remove('success');
+                uppercaseRequirement.textContent = '✖ 1 uppercase letter';
+            }
+    
+            // Check if the password has at least 1 number
+            if (/\d/.test(password)) {
+                numberRequirement.classList.add('success');
+                numberRequirement.textContent = '✔ 1 number';
+            } else {
+                numberRequirement.classList.remove('success');
+                numberRequirement.textContent = '✖ 1 number';
+            }
+    
+            // Hide requirements if all are met
+            if (password.length >= 8 && /[a-z]/.test(password) && /[A-Z]/.test(password) && /\d/.test(password)) {
+                passwordRequirements.style.display = 'none';
+            } else {
+                passwordRequirements.style.display = 'flex';
+            }
+    
+            checkFormValidity();  // Check overall form validity whenever the password changes
+        }
+    
+        function checkFormValidity() {
+            const password = passwordInput.value;
+    
+            if (
+                emailInput.value.trim() !== '' &&
+                password.length >= 8 &&
+                /[a-z]/.test(password) &&
+                /[A-Z]/.test(password) &&
+                /\d/.test(password)
+            ) {
+                submitButton.disabled = false;
+                submitButton.style.backgroundColor = '#131313';
+                submitButton.style.color = '#ffffff';  // Change text color to white
+            } else {
+                submitButton.disabled = true;
+                submitButton.style.backgroundColor = 'lightgray';
+                submitButton.style.color = '#0e0e0e';  // Reset text color to original
+            }
+        }
+    
+        // Event listeners
+        passwordInput.addEventListener('input', checkPasswordRequirements);
+        emailInput.addEventListener('input', checkFormValidity);
+    
+        passwordInput.addEventListener('focus', function() {
+            passwordRequirements.style.display = 'flex';  // Show requirements on focus
+        });
+    
+        passwordInput.addEventListener('blur', function() {
+            if (passwordInput.value === '' || (
+                lengthRequirement.classList.contains('success') &&
+                lowercaseRequirement.classList.contains('success') &&
+                uppercaseRequirement.classList.contains('success') &&
+                numberRequirement.classList.contains('success')
+            )) {
+                passwordRequirements.style.display = 'none';  // Hide if all requirements are met or password is empty
+            }
+        });
+    
+        // Hide the password requirements when the user clicks outside the password field (blurs it)
+        passwordInput.addEventListener('blur', function() {
+            if (!passwordInput.value) {
+                passwordRequirements.style.display = 'none';
+            }
+        });
+    </script>
+    
+    
+    <!--footer starts from here-->
+    <footer class="footer container-fluid mt-5" style="width: 100% !important; height: 530px !important;">
+        <div class="bottom_border" style="margin-left: 7rem; margin-right: 7rem; padding-left: 1rem; margin-top: 3rem;">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col ps-0">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://specialgraphics.us/customersupport.html">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="https://specialgraphics.us/team.html">Team</a></li>
+                        <li><a href="https://specialgraphics.us/press.html">Press releases</a></li>
+                    </ul>
+
+                </div>
+
+                <div class=" col-sm-4 col-md  col-6 col ps-2">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Categories</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://specialgraphics.us/logoandbrand.html">Logo & Brand</a></li>
+                        <li><a href="https://specialgraphics.us/webandapp.html">Web & App Design</a></li>
+                        <li><a href="https://specialgraphics.us/businessandadvertising.html">Business & Advertising</a>
+                        </li>
+                        <li><a href="https://specialgraphics.us/clothing.html">Clothing & Merchandise</a></li>
+                        <li><a href="https://specialgraphics.us/packagingandlabel.html">Packaging & Label</a></li>
+                        <li><a href="https://specialgraphics.us/magazinandbook.html">Magazin & Book Covers</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col ps-5">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Get a Design</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://specialgraphics.us/logoandbrand.html">Logo Design</a></li>
+                        <li><a href="https://specialgraphics.us/businessandadvertising.html">Business Card</a></li>
+                        <li><a href="https://specialgraphics.us/webandapp.html">Web Design</a></li>
+                        <li><a href="https://specialgraphics.us/packagingandlabel.html">Package/Label Design</a></li>
+                        <li><a href="https://specialgraphics.us/logoandbrand.html">Brand Design</a></li>
+                        <li><a href="https://specialgraphics.us/clothing.html">T-Shirt Design</a></li>
+                        <li><a href="https://specialgraphics.us/magazinandbook.html">Book Cover Design</a></li>
+                        <li><a href="https://specialgraphics.us/index.html">Browse all categories</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+                <div class=" col-sm-4 col-md  col-6 col ps-5">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Info</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://specialgraphics.us/faqs.html">FAQ</a></li>
+                        <li><a href="https://specialgraphics.us/aboutus.html">About Us</a></li>
+                        <li><a href="https://specialgraphics.us/customersupport.html">Customer Support</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col ps-5">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Become a Designer</h5>
+                    <!--headin5_amrc ends here-->
+
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://specialgraphics.us/apackagedesign.html">Advance Package Design</a></li>
+                        <li><a href="https://specialgraphics.us/advanceprogram.html">Advance Logo Design</a></li>
+                        <li><a href="https://specialgraphics.us/basicsgraphicdesign.html">Basics of Graphic Design</a>
+                        </li>
+                        <li><a href="https://specialgraphics.us/customersupport.html">Help</a></li>
+                        <li><a href="https://specialgraphics.us/becomeadesigner.html">Become a Designer</a></li>
+                    </ul>
+                    <!--footer_ul2_amrc ends here-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-xxl mt-3">
+            <ul class="col-md-6 foote_bottom_ul_amrc d-flex ps-0">
+                <li><a href="#">&copy;Special Graphics</a></li>
+                <li><a class="mx-1"> | </a></li>
+                <li><a href="https://specialgraphics.us/terms.html">Terms and Conditions</a></li>
+                <li><a class="mx-1"> | </a></li>
+                <li><a href="https://specialgraphics.us/policy.html">Privacy</a></li>
+                <li><a class="mx-1"> | </a></li>
+                <li><a href="https://specialgraphics.us/policy.html">English</a></li>
+                <li><a href="https://specialgraphics.us/policy.html">Espa<span>&#241;</span>ol</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <!-- <p class="text-center">@Special Graphics | Designed With by <a href="#">Your Company Name</a></p> -->
+
+            <ul class="col-md-6 social_footer_ul text-end">
+                <a href="https://www.facebook.com/SpecialGraphics000/" target="_blank" class="me-2 link-secondary">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://twitter.com/Info_SGraphics" target="_blank" class="me-2 link-secondary">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com/specialgraphics/" target="_blank" class="me-2 link-secondary">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/info-specialgraphics/" target="_blank"
+                    class="me-2 link-secondary">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://www.pinterest.com/SpecialGraphics_Admin/" target="_blank" class="me-2 link-secondary">
+                    <i class="fab fa-pinterest fa-lg"></i>
+                </a>
+                <a href="https://www.behance.net/specialgraphics" target="_blank" class="me-2 link-secondary">
+                    <i class="fab fa-behance fa-lg"></i>
+                </a>
+            </ul>
+            <!--social_footer_ul ends here-->
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+        </script>
+    <!-- footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var CurrentPage = 'DesktopPage';
+        if (localStorage.getItem("CurrentPage") != null) {
+            CurrentPage = localStorage.getItem("CurrentPage");
+        }
+
+        window.addEventListener("resize", getTemplate);
+
+        function getTemplate() {
+            console.log(screen.width);
+
+            if (screen.width >= 767 && CurrentPage !== 'DesktopPage') {
+                localStorage.setItem("CurrentPage", 'DesktopPage');
+                return window.location.replace('https://specialgraphics.us/index.html');
+            }
+
+            if (screen.width < 767 && CurrentPage !== 'MobilePage') {
+                localStorage.setItem("CurrentPage", 'MobilePage');
+                return window.location.replace("https://specialgraphics.us/index1.html");
+            }
+        }
+
+        // Initial check when the page loads
+        getTemplate();
+    </script>
+
+    <script>
+        var swiper = new Swiper(".navBar", {
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: true,
+            loop: true
+        });
+
+        var swiper2 = new Swiper(".specialreviews", {
+            spaceBetween: 30,
+            fadeEffect: {
+                crossFade: true
+            },
+            effect: "fade",
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2500,
+            },
+            loop: true
+        });
+
+        var swiper3 = new Swiper(".servicesslider", {
+            effect: "fade",
+            fadeEffect: {
+                crossFade: true
+            },
+            pagination: {
+                el: ".swiper-pagination3",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: true,
+        });
+    </script>
+
+</body>
+
+</html>

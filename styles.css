@@ -1,0 +1,233 @@
+.container {
+    margin-top: 3%;
+    width: 38%!important;
+    background-color: #ffffff;
+    padding: 1%;
+    padding-left: 2%!important;
+    padding-right: 2%!important;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-buttons button {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-buttons button img {
+    margin-right: 10px;
+}
+
+.google {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+}
+
+.facebook {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+}
+
+.apple {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between; /* Distribute space between two input items */
+    margin-bottom: 15px;
+}
+
+.input-item {
+    flex: 1; /* Make both input items take equal width */
+    margin-right: 15px; /* Add space between the two input items */
+}
+
+.input-item:last-child {
+    margin-right: 0; /* Remove right margin from the last item */
+}
+
+.input-item label {
+    display: block; /* Ensure label is on top of the input field */
+    margin-bottom: 5px; /* Add some space between the label and the input */
+}
+
+.input-item input {
+    width: 100%; /* Make input take full width of the container */
+    border: none;
+    border-bottom: 1px dotted #000;
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    /* padding: 12px 0; */
+    border: none;
+    border-bottom: 1px dotted #000;
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: #aaa;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-bottom: 1px dotted #000;
+}
+
+.password-group {
+    position: relative;
+}
+
+.password-group input {
+    padding-right: 40px; /* Space for the eye icon */
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+    background-color: transparent;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
+
+.password-requirements {
+    margin-left: -10%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.password-requirements div {
+    flex: 1;
+}
+
+.password-requirements .requirement {
+    color: red;
+    font-size: 14px;
+}
+
+.password-requirements .requirement.success {
+    color: green;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #131313;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #000;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lock {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+}
+
+.color-code {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.additional-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.additional-options label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.additional-options .forgot-password {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.additional-options .forgot-password:hover {
+    text-decoration: underline;
+}
